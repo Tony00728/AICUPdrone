@@ -55,8 +55,23 @@ Testing
 **Installation Environment**
 -
    ```
-   打在這
+   作業系統: Windows10(x64)
+   語言: Python (Pytorch) 
+   函式庫: numpy、torch、tensorboardX、scilit_image、matplotlib、tqdm、easydict、Pillow、slimage、opencv_python、pycocotools
+   預訓練模型: YOLOv7 pretrained weights (yolov7.pt)  /  YOLOv7w6 pretrained weights (yolov7w6.pt)
 
+    # create the docker container, you can change the share memory size if you have more.
+      nvidia-docker run --name yolov7 -it -v your_coco_path/:/coco/ -v your_code_path/:/yolov7 --shm-size=64g nvcr.io/nvidia/pytorch:21.08-py3
+
+    # apt install required packages
+      apt update
+      apt install -y zip htop screen libgl1-mesa-glx
+
+    # pip install required packages
+      pip install seaborn thop
+
+    # go to code folder
+      cd /yolov7
 
   
  ```
@@ -78,11 +93,16 @@ Testing
 
 2.相關參數
 
-    epochs: 80
-    batch_size: 3
+   
     img_size:2048x2048
     learning rate:0.01
-     打這
+    Training Set: 26500
+    Validation Set: 8500
+    Testing Set: 1000
+    Class: 4
+    batch_size: 3
+    epochs: 80
+
  
  
 
@@ -98,9 +118,17 @@ Testing
 
 
 
-**Reference**
+## Rerfence
 -
-   **Paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)**
+ [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696) 
+ 
+  [最新的物件偵測王者 YOLOv7 介紹](https://aiacademy.tw/yolov7/)
+  
+  [深入淺出Yolo 系列之Yolov7 基礎網絡結構詳解](https://zhuanlan.zhihu.com/p/543743278)
+  
+  [目標檢測算法——YOLOv7訓練自己的數據集](https://blog.csdn.net/m0_53578855/article/details/127536604)
+               
+  [機器學習: 集群分析 K-means Clustering](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E9%9B%86%E7%BE%A4%E5%88%86%E6%9E%90-k-means-clustering-e608a7fe1b43)
 
 
 
