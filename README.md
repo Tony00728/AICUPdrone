@@ -81,10 +81,10 @@ Testing
 -
 1. 準備Ground truth label (train.txt跟val.txt)並將訓練圖片放入training資料夾，格式如下
    ```
-    D:/Aicup_drone/image_path/train/images/img10001.jpg
-    D:/Aicup_drone/image_path/train/images/img10002.jpg
-    D:/Aicup_drone/image_path/train/images/img10003.jpg
-    D:/Aicup_drone/image_path/train/images/img10004.jpg
+    D:/Aicup/aicuptrain/images/img10001.jpg
+    D:/Aicup/aicuptrain/images/img10002.jpg
+    D:/Aicup/aicuptrain/images/img10003.jpg
+    D:/Aicup/aicuptrain/images/img10004.jpg
     ...
    ```
 
