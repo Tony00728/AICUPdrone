@@ -72,6 +72,8 @@ Testing
     D:/Aicup_drone/image_path/train/images/img10004.jpg
     ...
    ```
+<img src="./figure/Drone_Score.PNG"  weight="1158" height="142" >
+
 
 2.相關參數
 
