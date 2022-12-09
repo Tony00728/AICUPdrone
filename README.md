@@ -1,4 +1,4 @@
-**:smiley:AICUP2022_無人機飛行載具之智慧計數競賽:smiley:**
+**:hear_no_evil:AICUP2022_無人機飛行載具之智慧計數競賽:hear_no_evil:**
 =
 [無人機飛行載具之智慧計數競賽](https://tbrain.trendmicro.com.tw/Competitions/Details/25)
 -
@@ -57,28 +57,46 @@ Testing
 
 **Training**
 -
-1. 準備Ground truth label (train.txt/val.txt)  
-   並將訓練圖片放入training資料夾，label格式如下
-    ```
+1. 準備Ground truth label (train.txt跟val.txt)並將訓練圖片放入training資料夾，格式如下
+   ```
     D:/Aicup_drone/image_path/train/images/img10001.jpg
     D:/Aicup_drone/image_path/train/images/img10002.jpg
     D:/Aicup_drone/image_path/train/images/img10003.jpg
     D:/Aicup_drone/image_path/train/images/img10004.jpg
     ...
-    ```
+   ```
 
 2.相關參數
-
 
     epochs: 80
     batch_size: 3
     img_size:2048x2048
-    learning rate : 0.01
+    learning rate:0.01
  
  
+
+**Installation Environment**
+-
+ 
+ 
+ 
+
  
 **最高分數**
 -
 
-  <img src="./figure/Drone.PNG" height="480">
+  <img src="./figure/Drone_Score.PNG"  weight="1158" height="142" >
+
+
+
+**Reference**
+-
+   ```
+     gggggg
+
+
+
+
+
+
 
