@@ -3,7 +3,7 @@
 [無人機飛行載具之智慧計數競賽](https://tbrain.trendmicro.com.tw/Competitions/Details/25)
 -
 
-**指導教授: 劉宗榮**
+**指導教授:劉宗榮**
 
 **隊伍名稱:Team_2059**
 
