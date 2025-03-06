@@ -118,17 +118,16 @@ Testing
 
 
 
-## Rerfence
--
- [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696) 
- 
-  [最新的物件偵測王者 YOLOv7 介紹](https://aiacademy.tw/yolov7/)
-  
-  [深入淺出Yolo 系列之Yolov7 基礎網絡結構詳解](https://zhuanlan.zhihu.com/p/543743278)
-  
-  [目標檢測算法——YOLOv7訓練自己的數據集](https://blog.csdn.net/m0_53578855/article/details/127536604)
-               
-  [機器學習: 集群分析 K-means Clustering](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E9%9B%86%E7%BE%A4%E5%88%86%E6%9E%90-k-means-clustering-e608a7fe1b43)
+## Citation
+
+```
+@article{wang2022yolov7,
+  title={{YOLOv7}: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors},
+  author={Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},
+  journal={arXiv preprint arXiv:2207.02696},
+  year={2022}
+}
+```
 
 
 
